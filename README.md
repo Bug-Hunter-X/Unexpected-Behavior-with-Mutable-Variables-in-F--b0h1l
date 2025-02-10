@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in F# when working with mutable variables.  Because mutable variables are passed by reference, modifications within a function directly impact the original variables.  The provided solution illustrates how to correctly swap the values using tuples to avoid unintended side effects.
